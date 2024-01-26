@@ -15,5 +15,7 @@ public class Main {
         m2.setAsPaid("Alice Betsy");
         m2.listLoans();
         System.out.println("profit from m2: " + m2.calculateProfitEarned());
+
+        Loan newLoan = new Loan("Alice Betsy", 100, 0.1);
     }
 }
